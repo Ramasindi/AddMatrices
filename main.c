@@ -22,13 +22,14 @@ int mat2[m][n];
 int result[m][n];
 int i,j;
     printf("\n");
-    printf("Enter elements of matrix A :\n");
+    printf("Enter elements of matrix A:\n");
     //scanning user input
     for(i=0;i<m;i++){
         for(j=0;j<n;j++){
             scanf("%d",&mat1[i][j]);
         }
     }
+    printf("\n");
     printf("Enter elements of matrix B:\n");
     for(i=0;i<m;i++){
         for(j=0;j<n;j++){
@@ -37,7 +38,7 @@ int i,j;
     }
     printf("\n");
     //Print formatted matrices
-    printf("Matrix A :\n");
+    printf("Matrix A :\n\n");
     for(i=0;i< m;i++)
     {
         for(j=0;j< n;j++)
@@ -46,7 +47,7 @@ int i,j;
         }
         printf("\n");
     }
-    printf("\nMatrix B :\n");
+    printf("\nMatrix B :\n\n");
     for(i=0;i< m;i++)
     {
         for(j=0;j< n;j++)
@@ -63,7 +64,7 @@ int i,j;
         }
     }
     //printing results
-    printf("Addition: A + B = \n");
+    printf("Addition: A + B = \n\n");
     for(i=0;i<m;i++){
         for(j=0;j<n;j++)
         {
